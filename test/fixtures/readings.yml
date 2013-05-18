@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  time: 2013-05-18 18:51:12
+  BPM: 1
+  IBI: 1
+
+two:
+  time: 2013-05-18 18:51:12
+  BPM: 1
+  IBI: 1
