@@ -8,7 +8,7 @@ gem 'rails', '3.2.13'
 gem 'sqlite3'
 
 gem 'redis', '2.1.1'
-gem 'SerialPort'
+gem 'serialport'
 
 # Gems used only for assets and not required
 # in production environments by default.

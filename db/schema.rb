@@ -11,7 +11,34 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130518230955) do
+ActiveRecord::Schema.define(:version => 20130519030112) do
+
+  create_table "Events", :force => true do |t|
+    t.string   "event_type"
+    t.datetime "trigger"
+    t.datetime "end"
+    t.string   "description"
+    t.string   "action_taken"
+    t.string   "status"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+  end
+
+  create_table "contacts", :force => true do |t|
+    t.string   "name"
+    t.string   "email"
+    t.string   "phone"
+    t.string   "relationship"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+  end
+
+  create_table "reading_ibis", :force => true do |t|
+    t.datetime "time"
+    t.integer  "ibi"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "readings", :force => true do |t|
     t.datetime "time"
@@ -32,6 +59,7 @@ ActiveRecord::Schema.define(:version => 20130518230955) do
     t.integer  "weight"
     t.datetime "created_at",        :null => false
     t.datetime "updated_at",        :null => false
+    t.string   "image"
   end
 
 end

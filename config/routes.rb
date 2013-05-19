@@ -1,4 +1,58 @@
 Angelhackapp::Application.routes.draw do
+  get "event/index"
+
+  get "event/show"
+
+  get "event/new"
+
+  get "event/edit"
+
+  get "event/create"
+
+  get "event/update"
+
+  get "event/delete"
+
+  get "contact/index"
+
+  get "contact/show"
+
+  get "contact/new"
+
+  get "contact/edit"
+
+  get "contact/create"
+
+  get "contact/update"
+
+  get "contact/delete"
+
+  get "user/index"
+
+  get "user/show"
+
+  get "user/new"
+
+  get "user/edit"
+
+  get "user/create"
+
+  get "user/update"
+
+  get "user/delete"
+
+  get "reading/index"
+
+  get "reading/show"
+
+  get "reading/new"
+
+  get "reading/editcreate"
+
+  get "reading/update"
+
+  get "reading/delete"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

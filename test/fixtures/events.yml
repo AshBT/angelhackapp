@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  type: 
+  trigger: 2013-05-18 22:33:52
+  end: 2013-05-18 22:33:52
+  description: MyString
+  action_taken: MyString
+  status: MyString
+
+two:
+  type: 
+  trigger: 2013-05-18 22:33:52
+  end: 2013-05-18 22:33:52
+  description: MyString
+  action_taken: MyString
+  status: MyString
