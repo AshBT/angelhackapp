@@ -15,15 +15,19 @@ parity = SerialPort::NONE
 
 # sp = SerialPort.new(port_str, baud_rate, data_bits, stop_bits, parity)
 
-
+# counter = 0
 
 # while true do
 #   while (i = sp.gets.chomp) do       # see note 2
 #      puts i
 #     # puts $redis
-#    if i[0] == "B"
+# 		counter+=1
+	
+
+#    if i[0] == "B" and counter == 10
 #    		Reading.create(:time => DateTime.now, :BPM => ((i[1..3]).to_i)/2, :IBI => 0)
-#    	else
+#    		counter = 0
+#  			else
 #    		ReadingIbi.create(:time => DateTime.now, :ibi => ((i[1..3]).to_i)/2)
 #    	end
    

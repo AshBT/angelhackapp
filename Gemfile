@@ -9,6 +9,7 @@ gem 'sqlite3'
 
 gem 'redis', '2.1.1'
 gem 'serialport'
+gem 'rabl'
 
 # Gems used only for assets and not required
 # in production environments by default.
