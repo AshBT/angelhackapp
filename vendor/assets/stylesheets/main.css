@@ -1,0 +1,119 @@
+
+
+@import url(http://fonts.googleapis.com/css?family=Coda+Caption:800);
+
+body {
+    background: url(../img/simple_dashed.png);   
+}
+
+.rate-box {
+    background: #41ff00;
+    width: 115px;
+    height: 80px;
+    border-radius: 10px;
+    outline-color: whitesmoke;
+    border-color: white;
+    border-width: 4px;
+    border-style: solid;
+    float:left;
+    margin: 5px 10px;
+    font-family: 'Coda Caption', sans-serif;
+    color: whitesmoke;
+    font-size: 50px;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.labels{
+    width: 100%;
+    float: left;
+}
+
+#rate-current{
+    background-color: #41ff00
+}
+
+#rate-average{
+    background-color: #41ff00  
+}
+
+.caption {
+    width: 115px; 
+    margin: 0px 14px;
+    text-align:center;
+    font-size:15px;
+    font-weight: 900;
+    color: white;
+    float: left;
+    text-transform:uppercase;
+}
+
+.grey-button{
+    background: grey;
+    width: 95%;
+    border-radius: 2px;
+    text-align: center;
+    padding: 10px 0;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background: rgb(181,189,200); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(181,189,200,1) 0%, rgba(130,140,149,1) 36%, rgba(40,52,59,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(181,189,200,1)), color-stop(36%,rgba(130,140,149,1)), color-stop(100%,rgba(40,52,59,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 ); /* IE6-9 */
+    cursor: pointer;
+    color:white;
+}
+
+.grey-button:hover {    
+    background: rgb(125,126,125); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(125,126,125,1)), color-stop(100%,rgba(14,14,14,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */   
+}
+
+.alert-date{
+    float:right;
+}
+
+.alert-type{
+    float: left;
+}
+.info{
+    background: red;
+    border-radius: 5px;
+}
+.profile_label {
+    color: white;
+    float:left;
+    line-height: 2.1;
+}
+.profile_input{
+    float:right;
+}
+.parent-box{
+    width:115px;
+    float:left;
+    margin: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

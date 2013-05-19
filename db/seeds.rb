@@ -14,3 +14,23 @@ Contact.create(:name => "Toms Mom", :email =>"toms.mom@gmail.com", :phone => "41
 Contact.create(:name => "Toms Dad", :email =>"toms.dad@gmail.com", :phone => "4162192452", :relationship => "Father")
 
 User.create(:name => "Tom", :gender => "male", :age => 30, :height => 170, :diabetes => false, :tobacco => false, :physical_activity => 8, :weight => 75, :image => "http://metronewsca.files.wordpress.com/2013/01/fordinset.jpg?w=618&h=408&crop=1")
+
+Reading.create(:time => DateTime.now, :BPM => 123, :IBI => 0)
+
+ReadingIbi.create(:time => DateTime.now, :ibi => 100)
+
+
+  # create_table "reading_ibis", :force => true do |t|
+  #   t.datetime "time"
+  #   t.integer  "ibi"
+  #   t.datetime "created_at", :null => false
+  #   t.datetime "updated_at", :null => false
+  # end
+
+  # create_table "readings", :force => true do |t|
+  #   t.datetime "time"
+  #   t.integer  "BPM"
+  #   t.integer  "IBI"
+  #   t.datetime "created_at", :null => false
+  #   t.datetime "updated_at", :null => false
+  # end

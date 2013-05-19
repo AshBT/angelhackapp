@@ -1,4 +1,5 @@
 Angelhackapp::Application.routes.draw do
+
   get "event/index"
 
   get "event/show"
